@@ -11,7 +11,8 @@ setup(
     url='https://github.com/jminkler/epa',
     install_requires = [
         'click',
-        'scrapy'
+        'scrapy',
+        'requests'
     ],
     entry_points='''
         [console_scripts]
